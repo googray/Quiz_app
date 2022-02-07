@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="start-btn"><button>Start Quiz</button></div>
+    <!--Info Part-->
+    <div class="info-box">
+      <div class="info-title"><span>Are you ready?</span></div>
+      <div class="info-list">
+        <div class="info">
+          1. You will have only 5 minutes for answers on quizes.
+        </div>
+        <div class="info">
+          2. Once you select your answer, it can't be undone.
+        </div>
+        <div class="info">
+          3. You can exit from the Quiz while you're playing.
+        </div>
+        <div class="info">
+          4. You'll get points on the basis of your correct answers.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="quit">Continue</button>
+      </div>
+    </div>
+    <!--Quiz Part-->
+    <div class="quiz-box">
+      <header>
+        <div class="title">Quize Aplication</div>
+        <div class="timer">
+          <div class="time-left__text">Time left</div>
+          <div class="timer-sec">300</div>
+        </div>
+      </header>
+      <section>
+        <div class="que-text"></div>
+        <div class="option-list"></div>
+      </section>
+
+      <!--Footer Part-->
+      <footer>
+        <div class="total-que"></div>
+        <button class="escape-btn">Escape</button>
+        <button class="next-btn">Next Que</button>
+      </footer>
+    </div>
+
+    <!--Result Part-->
+    <div class="result-box">
+      <div class="icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <div class="complete-text">You've completed the Quiz!</div>
+      <div class="score-text"></div>
+      <button class="restart">Replay Quiz</button>
+      <button class="quit">Quit Quiz</button>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
