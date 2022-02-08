@@ -589,7 +589,7 @@ body {
   color: #000;
 }
 
-#countdown {
+/* #countdown {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -599,4 +599,4 @@ body {
   background: var(--main-color);
   text-align: center;
   border-radius: 5px;
-}
+} */

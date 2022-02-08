@@ -90,5 +90,3 @@ let questions = [
     answer: "false",
   },
 ];
-
-export default questions;
