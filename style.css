@@ -21,16 +21,16 @@ body {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .info-box,
 .quiz-box,
 .result-box {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -40,11 +40,11 @@ body {
   opacity: 1;
   z-index: 5;
   pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-30%, -50%) scale(1);
 }
 
 .start-btn button {
-  width: 500px;
+  width: 400px;
   font-size: 25px;
   font-weight: 500;
   color: #39d;
@@ -60,7 +60,7 @@ body {
   max-width: 600px;
   background: #fff;
   border-radius: 4px;
-  transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-30%, -50%) scale(0.9);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease-in-out;
@@ -119,7 +119,7 @@ body {
   width: 610px;
   background: #fff;
   border-radius: 4px;
-  transform: (-50%, -50%) scale(0.9);
+  transform: (-30%, -50%) scale(0.9);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
@@ -309,7 +309,7 @@ footer button.show {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-30%, -50%) scale(0.9);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
